@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: camping
+    username: camping
+    url: jdbc:mysql://localhost:3306/camping
+
+logging:
+  level:
+    root: warn
+    '[com.shawver]' : debug
